@@ -1,3 +1,16 @@
 # 📱 Mobile
 
-Foco em Flutter, com visões nativas de Android e iOS para complementar.
+Trilha focada em desenvolvimento mobile, com destaque para Flutter e visões complementares sobre Android e iOS nativos.
+
+---
+
+## 🔗 Conteúdo
+
+- [🤖 Android Nativo](android-nativo.md)
+- [🏛️ Arquitetura Mobile](arquitetura.md)
+- [🦋 Flutter (em breve)](flutter.md)
+- [🍎 iOS Nativo (em breve)](ios-nativo.md)
+
+---
+
+> Criar apps móveis robustos exige conhecimento técnico, arquitetural e foco em experiência do usuário.

@@ -56,14 +56,16 @@ class ServicoTest {
 
 ## ⚔️ Testes Unitários vs Testes de Integração
 
-Aspecto	Teste Unitário	Teste de Integração
-Escopo	Método ou classe isolada	Conjunto de componentes/sistemas
-Dependências externas	Simuladas (mocks/stubs)	Reais (banco, APIs, etc.)
-Velocidade	Muito rápido	Mais lento
-Confiabilidade	Alta (isolamento)	Média (possibilidade de falhas externas)
-Objetivo	Verificar lógica de negócio	Verificar integração entre componentes
+| Aspecto              | Teste Unitário                      | Teste de Integração                             |
+|----------------------|-------------------------------------|-------------------------------------------------|
+| Escopo               | Método ou classe isolada            | Conjunto de componentes/sistemas                |
+| Dependências externas| Simuladas (mocks/stubs)             | Reais (banco, APIs, etc.)                       |
+| Velocidade           | Muito rápido                        | Mais lento                                      |
+| Confiabilidade       | Alta (isolamento)                   | Média (possibilidade de falhas externas)        |
+| Objetivo             | Verificar lógica de negócio         | Verificar integração entre componentes          |
 
-É recomendável adotar ambos os tipos para garantir qualidade e confiança no sistema.
+
+*É recomendável adotar ambos os tipos para garantir qualidade e confiança no sistema.*
 
 ### 🐳 Testcontainers
 Testcontainers é uma biblioteca Java que fornece instâncias de containers Docker para testes de integração com recursos externos como banco de dados, mensageria, etc.
